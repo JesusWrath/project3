@@ -1,0 +1,151 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tinos', serif;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+a, p {
+    text-decoration: none;
+    color:white;
+}
+
+p {
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+
+header {
+    background: url(/img/bg.png);
+    background-size: 100%;
+    margin: 0px auto;
+    height: 800px;
+}
+
+
+header a:hover{
+    color:orange
+    
+}
+
+.container {
+    width:1440px;
+    margin: 0px auto;
+    padding: 0x auto;
+    display:flex;
+    
+}
+
+
+
+.nav {
+    margin-left:166px;
+    margin-right: 165px;
+    padding-top: 50px;
+    display:flex;
+    align-items: center;
+}
+
+
+.menu {
+    margin:0px;
+    padding:0px;
+    padding-left:268px;
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+
+.menu a {
+    transition: color 0.3s linear;
+}
+
+.menu a:not(:first-child) {
+    margin-left:23px;
+    
+}
+
+
+.basket {
+    padding-left: 35px;
+    padding-right: 15px;
+
+    
+}
+
+.hr {
+    height: 51px;
+
+}
+
+.phone {
+    padding-left:22px;
+    align-items: center;
+}
+
+.phone_holder {
+    align-items: center;
+    display:flex;
+    height: 5px;
+    padding-top: 40px;
+}
+
+
+
+.phone_holder p {
+    padding-left: 10px;
+    font-size:18px;
+    font-weight: 700;
+    margin-right:45px;
+}
+
+.phone_holder p:hover {
+    color:orange;
+    transition: color 0.3s linear;
+}
+
+.phone_text {
+    width: 154px;
+    height: 38px;
+}
+
+
+.phone_text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.block_button {
+    background-color: #FF7400;
+    transition: background-color 0.5s linear;
+}
+
+.block_button:hover {
+    background-color: #ad4e00
+
+    
+}
+
+
+.block p {
+    
+    padding: 14px 18px;
+    font-size:14px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
